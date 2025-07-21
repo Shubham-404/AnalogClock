@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="calender">
+            <div class="today">Wed</div>&nbsp;
+        </div>
+        <div class="hand-cont hand-hr">
+            <div class="hand hr"></div>
+        </div>
+        <div class="hand-cont hand-min">
+            <div class="hand min"></div>
+        </div>
+        <div class="hand-cont hand-sec">
+            <div class="hand sec"></div>
+        </div>
+    </div>
+    <div class="action">
+
+        <button onclick=reset()>Reset Clock</button>
+        <button onclick=faster()>Faster</button>
+        <button onclick=slower()>Slower</button>
+        <!-- <label for="set-time">Set Time</label> -->
+        <input class="set-time" type="time" name="set-time" value="00:00">
+        <button onclick=setTIme()>Set Time</button>
+    </div>
+
+    <script>
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
